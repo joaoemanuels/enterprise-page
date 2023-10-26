@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #FFF;
+  height: 5000px;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 95%;
+  margin: 21px auto 0 auto;
+}
+
+header .menu-burguer button {
+  appearance: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+header .menu-main {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  height: 72px;
+  border-radius: 50px;
+  background: #F1F7FF;
+
+}
+
+header .menu-main div {
+  margin-left: 42px;
+}
+
+header .menu-submit button {
+  width: 201px;
+  height: 72px;
+  appearance: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  background: linear-gradient(90deg, #03E7EA 0%, #005FEA 100%);
+  color: #F1F4F9;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
