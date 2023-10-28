@@ -4,14 +4,58 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/styles/output.css">
+  <link rel="stylesheet" href="../styles/output.css">
+  <link rel="stylesheet" href="../styles/custom-styles.css">
   <title>enterprise page</title>
 </head>
 
 <body>
 
+  <header class="flex justify-center">
+    <div class="flex items-center justify-between fixed w-11/12  mt-3 gap-4">
+      <div class="p-3 bg-slate-100 rounded-full w-16">
+        <img src="assets/images/menu-burguer.png" alt="Imagem do ícone de um menu hamburguer" class="w-full h-full">
+      </div>
+      <div class="bg-slate-100 w-full p-2 rounded-full">
+        <div>
+          <img src="assets/images/logo.png" alt="Logo fictícia de uma empresa">
+        </div>
+      </div>
+      <div>
+        <button class="hidden p-2 bg-primaryBtn rounded-full md:flex w-40 items-center text-center ">
+          <p class="mx-auto text-white font-semibold">Contact us</p>
+        </button>
+      </div>
+    </div>
+  </header>
 
-  
+  <main class="pt-24">
+    <section class="px-6 flex items-center justify-center flex-col">
+      <div>
+        <div>
+          <h1 class="text-3xl">
+            <span class="bg-primaryText">Transforming</span> Possibilities <br>
+            into <span class="bg-primaryText">Reality</span> with <br>
+            Premier EPC Solutions. <br>
+          </h1>
+          <div class="flex mt-8 gap-3 items-start text-blue-500">
+            <div class="flex p-4 border border-blue-500 rounded-full gap-1">
+              <button>About us</button>
+              <img src="assets/icons/arrowUp.svg" alt="s">
+            </div>
+            <div class="flex p-4 bg-slate-100 rounded-full gap-3">
+              <button>Download Brochure</button>
+              <img src="assets/icons/download.svg" alt="s">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+
+
   <script type="text/javascript" src="script.js"></script>
 </body>
 

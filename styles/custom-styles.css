@@ -1,0 +1,10 @@
+.bg-primaryBtn {
+  background-image: linear-gradient(90deg, #03E7EA 0%, #005FEA 100%);
+}
+
+.bg-primaryText {
+  background: linear-gradient(90deg, #03EAEA 0%, #005FEA 53.21%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
