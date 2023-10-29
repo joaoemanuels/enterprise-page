@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="../styles/output.css">
   <link rel="stylesheet" href="../styles/custom-styles.css">
   <title>enterprise page</title>
@@ -11,8 +12,9 @@
 
 <body>
 
-  <header class="flex justify-center z-50">
-    <div class="flex items-center justify-between fixed w-11/12  mt-3 gap-4">
+  <header class="flex justify-center ">
+    <div
+      class="flex items-center justify-between fixed w-full bg-white px-5 py-4 gap-4 z-10 rounded-b-lg shadow-primary">
 
       <!-- ----Inicio Subitens do menu---- -->
       <div class="p-3 bg-slate-100 rounded-full w-16">
@@ -35,9 +37,9 @@
     </div>
   </header>
 
-  <main class="pt-24">
+  <main class="pt-28">
     <section class="flex items-center justify-center flex-col">
-      <div>
+      <div class=" w-full px-4">
         <h1 class="text-2xl">
           <span class="bg-primaryText">Transforming</span> Possibilities <br>
           into <span class="bg-primaryText">Reality</span> with <br>
@@ -45,23 +47,39 @@
         </h1>
 
         <!-- ----Inicio container dos botões do menu---- -->
-        <div class="flex mt-8 gap-3 items-baseline justify-center text-blue-500">
+        <div class="flex mt-8 gap-3 items-baseline justify-between text-blue-500 ">
           <div class="flex p-2 border border-blue-500 rounded-full gap-1">
-            <button class="text-xs">About us</button>
+            <button class="text-sm">About us</button>
             <img src="assets/icons/arrowUp.svg" alt="s" class="w-4">
           </div>
 
           <div class="flex p-3 bg-slate-100 rounded-full gap-1">
-            <button class="text-xs">Download Brochure</button>
+            <button class="text-sm">Download Brochure</button>
             <img src="assets/icons/download.svg" alt="s" class="w-4">
           </div>
         </div>
         <!-- ----Fim container dos botões do menu---- -->
-
       </div>
+
+
+      <!-- Slider main container -->
+      <section class="mt-8 ">
+        <!-- Slider main container -->
+        <div class="swiper ">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper ">
+            <!-- Slides -->
+            <div class="swiper-slide "><img src="assets/images/home/card1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="assets/images/home/card1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="assets/images/home/card1.jpg" alt=""></div>
+          </div>
+
+        </div>
+      </section>
+
 
       <!-- ----Inicio Container dos cards menu---- -->
-      <div class="grid grid-cols-1">
+      <!-- <div class="grid grid-cols-1">
         <div class="card-unid w-72 mt-4">
           <p class="btn-float right-0 w-20 p-2 m-2 rounded-full">Doors</p>
           <img src="assets/images/home/card1.jpg" alt="" class="card-img hover:scale-110">
@@ -70,22 +88,8 @@
           </a>
         </div>
 
-        <div class="card-unid w-72 mt-4">
-          <p class="btn-float right-0 w-20 p-2 m-2 rounded-full">Doors</p>
-          <img src="assets/images/home/card1.jpg" alt="" class="card-img hover:scale-110">
-          <a href="#" class="btn-float bottom-0 p-1 m-4 rounded-lg">
-            <img src="assets/icons/arrowUp.svg" alt="">
-          </a>
-        </div>
 
-        <div class="card-unid w-72 mt-4">
-          <p class="btn-float right-0 w-20 p-2 m-2 rounded-full">Doors</p>
-          <img src="assets/images/home/card1.jpg" alt="" class="card-img hover:scale-110">
-          <a href="#" class="btn-float bottom-0 p-1 m-4 rounded-lg">
-            <img src="assets/icons/arrowUp.svg" alt="">
-          </a>
-        </div>
-      </div>
+      </div> -->
       <!-- ----Fim Container dos cards menu---- -->
 
     </section>
@@ -96,7 +100,11 @@
 
   </main>
 
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script type="text/javascript" src="script.js"></script>
+
 </body>
 
 </html>
